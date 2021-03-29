@@ -1,9 +1,9 @@
 package com.siren.liu.sample.pattern.strategy;
 
-public class MemberStrategyContext {
-    private MemberStrategy strategy;
+public class MemberContext {
+    private IMember strategy;
 
-    public MemberStrategyContext(MemberStrategy strategy) {
+    public MemberContext(IMember strategy) {
         this.strategy = strategy;
     }
 

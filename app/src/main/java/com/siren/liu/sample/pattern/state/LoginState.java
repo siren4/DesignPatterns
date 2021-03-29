@@ -1,6 +1,6 @@
 package com.siren.liu.sample.pattern.state;
 
-public class LoginState implements UserState {
+public class LoginState implements IUser {
     @Override
     public void buy() {
         System.out.println("登录成功，尝试购买");

@@ -1,5 +1,5 @@
 package com.siren.liu.sample.pattern.strategy;
 
-public interface MemberStrategy {
+public interface IMember {
     double calcPrice(double price);
 }

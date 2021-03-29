@@ -1,20 +1,20 @@
 package com.siren.liu.sample.pattern.state;
 
-public class UserStateContext {
-    private UserState currentState = new LoginState();
+public class UserContext {
+    private IUser currentState = new LoginState();
 
     private static final class SingletonHolder {
-        private static final UserStateContext INSTANCE = new UserStateContext();
+        private static final UserContext INSTANCE = new UserContext();
     }
 
-    private UserStateContext() {
+    private UserContext() {
     }
 
-    public static UserStateContext getInstance() {
+    public static UserContext getInstance() {
         return SingletonHolder.INSTANCE;
     }
 
-    public void setState(UserState state) {
+    public void setState(IUser state) {
         currentState = state;
     }
 

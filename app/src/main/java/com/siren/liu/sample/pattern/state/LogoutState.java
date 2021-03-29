@@ -1,6 +1,6 @@
 package com.siren.liu.sample.pattern.state;
 
-public class LogoutState implements UserState {
+public class LogoutState implements IUser {
     @Override
     public void buy() {
         System.out.println("没有登录，尝试登录");
