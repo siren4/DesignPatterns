@@ -8,7 +8,7 @@ public class UnitTest implements IUnit {
     public void test() {
         IMouse mouse1 = MouseFactory.createMouse("Dell");
         IMouse mouse2 = MouseFactory.createMouse("Hp");
-        mouse1.sayHi();
-        mouse2.sayHi();
+        mouse1.click();
+        mouse2.click();
     }
 }

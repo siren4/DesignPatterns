@@ -10,8 +10,8 @@ public class UnitTest implements IUnit {
         IMouse dellMouse = new DellMouseFactory().createMouse();
         IMouse hpMouse = new HpMouseFactory().createMouse();
         IMouse asusMouse = new AsusMouseFactory().createMouse();
-        dellMouse.sayHi();
-        hpMouse.sayHi();
-        asusMouse.sayHi();
+        dellMouse.click();
+        hpMouse.click();
+        asusMouse.click();
     }
 }
