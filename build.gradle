@@ -21,7 +21,7 @@ allprojects {
         maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/jcenter" }
         maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/maven_google_com" }
         maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/OPApk/" }
-        maven { url 'http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/oneplus_share_libs_snapshots/' }
+//        maven { url 'http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/oneplus_share_libs_snapshots/' }
         maven { url 'http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/oneplus_share_libs/' }
     }
 }
