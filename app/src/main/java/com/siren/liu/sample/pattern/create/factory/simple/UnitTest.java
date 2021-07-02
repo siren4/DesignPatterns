@@ -1,6 +1,6 @@
 package com.siren.liu.sample.pattern.create.factory.simple;
 
-import com.siren.liu.sample.pattern.IUnit;
+import com.siren.liu.sample.IUnit;
 import com.siren.liu.sample.pattern.create.factory.IMouse;
 
 public class UnitTest implements IUnit {

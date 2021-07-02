@@ -1,4 +1,4 @@
-package com.siren.liu.sample.pattern.create.factory.kit;
+package com.siren.liu.sample.pattern.create.factory.abstracted;
 
 public class DellKeyboard implements IKeyboard {
     @Override

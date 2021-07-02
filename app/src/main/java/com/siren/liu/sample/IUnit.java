@@ -1,4 +1,4 @@
-package com.siren.liu.sample.pattern;
+package com.siren.liu.sample;
 
 public interface IUnit {
     void test();
