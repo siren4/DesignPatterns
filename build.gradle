@@ -2,8 +2,10 @@
 buildscript {
     ext.kotlin_version = "1.3.72"
     repositories {//gradle脚本执行所需要的依赖
-        google()
-        mavenCentral()
+//        mavenCentral()
+//        google()
+        maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/jcenter" }
+        maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/maven_google_com" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.2'
@@ -15,8 +17,11 @@ buildscript {
 
 allprojects {
     repositories {//项目本身所需要的依赖、比如各类第三方库
-        google()
-        mavenCentral()
+//        mavenCentral()
+//        google()
+        maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/jcenter" }
+        maven { url "http://m2repo.onepluscorp.cn:8081/nexus/content/repositories/maven_google_com" }
+
     }
 }
 

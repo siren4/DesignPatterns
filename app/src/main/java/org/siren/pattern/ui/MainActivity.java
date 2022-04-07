@@ -1,4 +1,4 @@
-package org.siren.pattern;
+package org.siren.pattern.ui;
 
 import android.os.Bundle;
 

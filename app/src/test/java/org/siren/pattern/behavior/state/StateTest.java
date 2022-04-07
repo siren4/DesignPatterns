@@ -1,7 +1,17 @@
 package org.siren.pattern.behavior.state;
 
-public class StateUnit {
+import junit.framework.TestCase;
 
+import org.junit.Test;
+
+/**
+ * @author Siren <a href="mailto:siren.liu@oppo.com">Contact me.</a>
+ * @version 1.0.0
+ * @since 2021/7/14
+ */
+public class StateTest extends TestCase {
+
+    @Test
     public void test() {
         UserContext.getInstance().setState(new LoginState());
         UserContext.getInstance().buy();
